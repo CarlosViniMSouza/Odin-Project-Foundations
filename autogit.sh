@@ -1,7 +1,6 @@
-git init
 git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/CarlosViniMSouza/Odin-Project-Foundations.git
+git commit -m "Next topic: Links and Images"
 git push -u origin main
 git status
+
+# continue in https://www.theodinproject.com/lessons/foundations-links-and-images
