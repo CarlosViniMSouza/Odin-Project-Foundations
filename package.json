@@ -1,0 +1,26 @@
+{
+  "name": "odin-project-foundation",
+  "version": "1.0.0",
+  "description": "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
+  "main": "script.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosViniMSouza/Odin-Project-Foundations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosViniMSouza/Odin-Project-Foundations/issues"
+  },
+  "homepage": "https://github.com/CarlosViniMSouza/Odin-Project-Foundations#readme",
+  "devDependencies": {
+    "axios": "^1.4.0"
+  }
+}

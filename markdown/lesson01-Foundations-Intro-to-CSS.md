@@ -32,6 +32,8 @@ Here are some examples to refers to on 'How to manipulate selectors in CSS'
 
 ### 4.1. Universal Selector
 
+The universal selector will select elements of anu type, hence the name "universal", and the syntax for it's a simple asterisk.
+
 ```CSS
 * {
 	color: purple;
@@ -39,6 +41,8 @@ Here are some examples to refers to on 'How to manipulate selectors in CSS'
 ```
 
 ### 4.2. Type Selectors
+
+A type selector will select all elements of the given element type, and the syntax is just the name of the element:
 
 ```HTML
 <!-- index.html -->
@@ -56,6 +60,10 @@ div {
 
 ### 4.3. Class Selectors
 
+Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element.
+
+See a example for understand:
+
 ```HTML
 <!-- index.html -->
 
@@ -70,7 +78,14 @@ div {
 }
 ```
 
+`Note:` The syntax for class selectors, a period immediately followed by the case-sensitive value of the class attribute.
+
+`Another thing`: You can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`.
+
 ### 4.4. ID Selectors
+
+ID Selectors are similar to class selectors.
+The major difference between classes and IDs, is that an element can only have one ID!
 
 ```HTML
 <!-- index.html -->
@@ -86,7 +101,11 @@ div {
 }
 ```
 
+For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute.
+
 ### 4.5. Grouping Selectors
+
+What if we have two groups of elements that share some of their style declarations?
 
 ```CSS
 .read, .unread {
@@ -97,7 +116,11 @@ div {
 }
 ```
 
+Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations; but otherwise have several of their own unique declarations.
+
 ### 4.6. Chaining Selectors
+
+Another way to use selectors is to chain them as a list without any separation.
 
 ```HTML
 <!-- index.html -->
@@ -108,6 +131,8 @@ div {
 </div>
 ```
 
+We have two elements with the subjection class that have some sort of unique styles.
+
 ```CSS
 /* styles.css */
 
@@ -117,7 +142,15 @@ div {
 }
 ```
 
+This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](https://www.theodinproject.com/lessons/foundations-intro-to-css#type-selectors) 
+
 ### 4.7. Descendant combinator
+
+Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors.
+
+So something like `.ancestor .child` would select an element with the class `child` if it has an ancestor with the class `ancestor`. 
+
+Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deep.
 
 ```HTML
 <!-- index.html -->
@@ -129,8 +162,11 @@ div {
 	    <div class="contents">
 			<!-- C -->
 		</div>
-	  </div>
+	</div>
 </div>
+
+<div class="contents"></div>
+<!-- D -->
 ```
 
 ```CSS
@@ -142,4 +178,29 @@ div {
 }
 ```
 
+In the above example, the first two elements with the `contents` class (B and C) would be selected, but that last element (D) wouldn’t be. Was your guess correct?
 
+There’s really no limit to how many combinators you can add to a rule, so `.one` `.two` `.three` `.four` would be totally valid.
+
+## 5. Order Matters!
+
+When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it.
+
+```CSS
+/* styles.css */
+
+.first_declared, .last_declared {
+	background-color: rgb(200, 50, 150);
+	font-weight: 800;
+}
+.first_declared {
+	color: rgb(50, 50, 200);
+	font-size: 32px;
+}
+.last_declared {
+	font-size: 14px;
+	font-weight: 800;
+}
+```
+
+In the above example, the selector `last_declared` would override the `first_declared` selector.
