@@ -204,3 +204,24 @@ When two selectors have the same level of specificity, the rule that is defined 
 ```
 
 In the above example, the selector `last_declared` would override the `first_declared` selector.
+
+## 6. Properties to get started with
+
+There are some CSS properties that you're going to be using all the time, or at the very least more often than not. Learning the following properties will simply be enough to help get you started.
+
+### 6.1. Color and Background-color
+
+1. `color`: Set an element text color;
+2. `background-color`: Set the background color of an element;
+
+```CSS
+.element {
+	color: #1100ff;           /* example 01 - HEX example*/
+	color: rgb(100, 0, 127);  /* example 02 - RGB example */
+	color: hsl(15, 82%, 56%); /* example 03 - HSL example */
+}
+```
+
+`Trick`: Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
+
+### 6.2. Typography basics and text-align

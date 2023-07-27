@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next topic: Properties to get started with"
+git commit -m "Next sub-topic: Typography basics and text-align"
 git push
 git status
 
