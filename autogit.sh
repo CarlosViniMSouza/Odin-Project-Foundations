@@ -1,6 +1,6 @@
 git add .
-git commit -m "add: projects -> Brutalist"
+git commit -m "Next Topic: The Cascade"
 git push
 git status
 
-# continue in https://www.theodinproject.com/lessons/foundations-intro-to-css#properties-to-get-started-with
+# continue in https://www.theodinproject.com/lessons/foundations-the-cascade

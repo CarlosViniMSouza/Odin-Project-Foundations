@@ -30,7 +30,7 @@ They're what is actually being "selected" for each rule.
 
 Here are some examples to refers to on 'How to manipulate selectors in CSS'
 
-### 4.1. Universal Selector
+#### 4.1. Universal Selector
 
 The universal selector will select elements of anu type, hence the name "universal", and the syntax for it's a simple asterisk.
 
@@ -40,7 +40,7 @@ The universal selector will select elements of anu type, hence the name "univers
 }
 ```
 
-### 4.2. Type Selectors
+#### 4.2. Type Selectors
 
 A type selector will select all elements of the given element type, and the syntax is just the name of the element:
 
@@ -58,7 +58,7 @@ div {
 }
 ```
 
-### 4.3. Class Selectors
+#### 4.3. Class Selectors
 
 Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element.
 
@@ -82,7 +82,7 @@ See a example for understand:
 
 `Another thing`: You can do with the class attribute is to add multiple classes to a single element as a space-separated list, such as `class="alert-text severe-alert"`.
 
-### 4.4. ID Selectors
+#### 4.4. ID Selectors
 
 ID Selectors are similar to class selectors.
 The major difference between classes and IDs, is that an element can only have one ID!
@@ -103,7 +103,7 @@ The major difference between classes and IDs, is that an element can only have o
 
 For IDs, instead of a period, we use a hashtag immediately followed by the case-sensitive value of the ID attribute.
 
-### 4.5. Grouping Selectors
+#### 4.5. Grouping Selectors
 
 What if we have two groups of elements that share some of their style declarations?
 
@@ -118,7 +118,7 @@ What if we have two groups of elements that share some of their style declaratio
 
 Both our `.read` and `.unread` selectors share the `color: white;` and `background-color: black;` declarations; but otherwise have several of their own unique declarations.
 
-### 4.6. Chaining Selectors
+#### 4.6. Chaining Selectors
 
 Another way to use selectors is to chain them as a list without any separation.
 
@@ -144,7 +144,7 @@ We have two elements with the subjection class that have some sort of unique sty
 
 This syntax basically works for chaining any combination of selectors, except for chaining more than one [type selector](https://www.theodinproject.com/lessons/foundations-intro-to-css#type-selectors) 
 
-### 4.7. Descendant combinator
+#### 4.7. Descendant combinator
 
 Combinators allow us to combine multiple selectors differently than either grouping or chaining them, as they show a relationship between the selectors.
 
@@ -209,7 +209,7 @@ In the above example, the selector `last_declared` would override the `first_dec
 
 There are some CSS properties that you're going to be using all the time, or at the very least more often than not. Learning the following properties will simply be enough to help get you started.
 
-### 6.1. Color and Background-color
+#### 6.1. Color and Background-color
 
 1. `color`: Set an element text color;
 2. `background-color`: Set the background color of an element;
@@ -224,4 +224,37 @@ There are some CSS properties that you're going to be using all the time, or at 
 
 `Trick`: Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
-### 6.2. Typography basics and text-align
+#### 6.2. Typography basics and text-align
+
+1. `font-family`: Set a value that determine what font an element uses. 
+	Like `"Times New Roman"` (your should use quotes when have space between spaces) or `sans-serif`  (generic family names, don't use quotes).
+	
+2. `font-size`: Set the size of font. 
+	Example: `font-size: 24px`
+3. `font-weight`: affects the boldness of text, can be a number between 1 and 1000 (but you can use words predefined). 
+	Examples: `font-weight: bold` | `font-weight: 500`
+4. `text-align`: This will align text horizontally within an element. 
+	Example: `text-align: center`
+
+#### 6.3. Image height and width
+
+By default, an `<img>` element's `height` and `width` ready values. For modify, use a value of "auto" for the `height` property and adjust the `width` value:
+
+```CSS
+img {
+	height: auto;
+	width: 150px;
+}
+```
+
+For example, if an image’s original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
+
+## Adding CSS to HTML
+
+Exist three ways of link CSS to HTML: By "External CSS" (using meta links at `<head>`), and "Internal CSS" (using the tag `<style>`), and the "Inline CSS" (applying the CSS properties inside of HTML tags)
+
+```
+📑 NOTE: 
+
+As I know how to use the all forms, I'll skip this topic, and go to the next one!
+```
