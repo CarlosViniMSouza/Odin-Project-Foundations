@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const title = 'Kanojyo to Himitsu to Koimoyou';
+const title = 'Koi Wa Sekai';
 const urlAPI = 'https://api.mangadex.org';
 
 const searchTitle = await axios({

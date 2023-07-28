@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next sub-topic: Typography basics and text-align"
+git commit -m "add: projects -> Brutalist"
 git push
 git status
 
