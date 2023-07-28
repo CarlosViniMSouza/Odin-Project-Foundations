@@ -47,7 +47,7 @@ A type selector will select all elements of the given element type, and the synt
 ```HTML
 <!-- index.html -->
 
-<div>Hello, World!</div>
+<div> Hello, World! </div>
 ```
 
 ```CSS
@@ -126,8 +126,8 @@ Another way to use selectors is to chain them as a list without any separation.
 <!-- index.html -->
 
 <div>
-  <div class="subsection header"> Latest Posts </div>
-  <p class="subsection preview"> This is where a preview for a post might go. </p>
+	<div class="subsection header"> Latest Posts </div>
+    <p class="subsection preview"> This is where a preview for a post might go. </p>
 </div>
 ```
 
@@ -193,10 +193,12 @@ When two selectors have the same level of specificity, the rule that is defined 
 	background-color: rgb(200, 50, 150);
 	font-weight: 800;
 }
+
 .first_declared {
 	color: rgb(50, 50, 200);
 	font-size: 32px;
 }
+
 .last_declared {
 	font-size: 14px;
 	font-weight: 800;
@@ -228,11 +230,13 @@ There are some CSS properties that you're going to be using all the time, or at 
 
 1. `font-family`: Set a value that determine what font an element uses. 
 	Like `"Times New Roman"` (your should use quotes when have space between spaces) or `sans-serif`  (generic family names, don't use quotes).
-	
+
 2. `font-size`: Set the size of font. 
 	Example: `font-size: 24px`
+
 3. `font-weight`: affects the boldness of text, can be a number between 1 and 1000 (but you can use words predefined). 
 	Examples: `font-weight: bold` | `font-weight: 500`
+
 4. `text-align`: This will align text horizontally within an element. 
 	Example: `text-align: center`
 
