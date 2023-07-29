@@ -3,8 +3,14 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    border: 2px solid black;
 }
 
 .loremIpsum {
     font-family: "Times New Roman",
+}
+
+.listGroup {
+    display: inline-block;
+    text-align: left;
 }
