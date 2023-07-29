@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next Topic: Inspecting HTML and CSS"
+git commit -m "Next Topic: The Box Model"
 git push
 git status
 
-# continue in https://www.theodinproject.com/lessons/foundations-inspecting-html-and-css
+# continue in https://www.theodinproject.com/lessons/foundations-the-box-model
