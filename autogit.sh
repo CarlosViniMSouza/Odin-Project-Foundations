@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next Topic: deeping in Flexbox"
+git commit -m "Next Topic: deeping in Flexbox | going back to studies"
 git push
 git status
 

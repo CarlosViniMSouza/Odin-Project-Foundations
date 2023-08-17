@@ -1,6 +1,6 @@
 ## 1. Introduction
 
-CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage.
+CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage.p
 
 ## 2. Lesson Overview
 
