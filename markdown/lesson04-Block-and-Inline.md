@@ -1,15 +1,23 @@
 ## 1. Introduction
 
-CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage.p
+CSS has two box types: `block` and `inline` boxes, which determine element behavior and interaction. The `display` property controls how HTML elements appear on the webpage.
 
 ## 2. Lesson Overview
 
 <div>
 	<ul>
-		<li> Learn about "Normal Flow" </li>
-		<li> Differences between <code>block</code> and <code>inline</code> elements </li>
-		<li> Which elements default to <code>block</code> and which elements default to <code>inline</code> </li>
-		<li> learn what divs and spans are </li>
+		<li> 
+			Learn about "Normal Flow" 
+		</li>
+		<li> 
+			Differences between <code>block</code> and <code>inline</code> elements 
+		</li>
+		<li> 
+			Which elements default to <code>block</code> and which elements default to <code>inline</code>
+		</li>
+		<li> 
+			Learn what divs and spans are 
+		</li>
 	</ul>
 </div>
 
@@ -23,7 +31,7 @@ Inline elements, however, do not start on a new line. They appear in line with w
 
 ### The middle ground `inline-block`
 
-`Inline-block` elements behave like inline elements, but with block-style padding and margin.
+`inline-block` elements behave like inline elements, but with block-style padding and margin.
 
 `display: inline-block` is a useful tool to know about, but in practice, you’ll probably end up reaching for flexbox more often if you’re trying to line up a bunch of boxes.
 
@@ -41,4 +49,4 @@ We can give an id or class to target them for styling with CSS.
 
 Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to _divide_ the page into different blocks and apply styling to those blocks [See a example on codepen.io](https://codepen.io/TheOdinProjectExamples/pen/KKXXbwR)
 
-Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate. [See a example on codepen.io]([block-inline-lesson-span-example (codepen.io)](https://codepen.io/TheOdinProjectExamples/pen/abLLPor))
+Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate. [See a example on codepen.io](https://codepen.io/TheOdinProjectExamples/pen/abLLPor)

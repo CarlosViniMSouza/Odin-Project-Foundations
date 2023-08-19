@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next Topic: deeping in Flexbox | going back to studies"
+git commit -m "Next Topic: Growing and Shrinking"
 git push
 git status
 
-# continue in https://www.theodinproject.com/lessons/foundations-introduction-to-flexbox
+# continue in https://www.theodinproject.com/lessons/foundations-growing-and-shrinking
