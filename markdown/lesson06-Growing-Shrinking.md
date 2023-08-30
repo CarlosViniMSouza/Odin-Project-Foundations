@@ -36,11 +36,57 @@ In the above screenshot, `flex: 1` equates to: `flex-grow: 1`, `flex-shrink: 1`,
 </div>
 ```
 
+```css
+.flex-container {
+  display: flex;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: peachpuff;
+  border: 4px solid brown;
+  height: 100px;
+  flex: 1 1 0%;
+}
+
+/* only div.two is selected here */
+.flex-container .two {
+  flex: 2 1 0%;
+}
+```
+
 ### 3.2. Flex-shrink
 
 `flex-shrink` is similar to `flex-grow`, but sets the “shrink factor” of a flex item. `flex-shrink` only ends up being applied if the size of all flex items is larger than their parent container. For example, if our 3 divs from above had a width declaration like: `width: 100px`, and `.flex-container` was smaller than `300px`, our divs would have to shrink to fit.
 
 The default shrink factor is `flex-shrink: 1`, which means all items will shrink evenly. If you do _not_ want an item to shrink then you can specify `flex-shrink: 0;`.
+
+```html
+<div class="flex-container">
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+</div>
+```
+
+```css
+.flex-container {
+  display: flex;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: rgb(215, 185, 255);
+  border: 2px solid brown;
+  height: 100px;
+  width: 250px;
+  flex: 1 1 auto;
+}
+
+.flex-container .two {
+  flex-shrink: 0;
+}
+```
 
 An important implication to notice here is that when you specify `flex-grow` or `flex-shrink`, flex items do not necessarily respect your given values for `width`.
 

@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next Sub-Topic: Axes"
+git commit -m "Next Sub-Topic: Axes | Inserted HTML & CSS examples"
 git push
 git status
 
