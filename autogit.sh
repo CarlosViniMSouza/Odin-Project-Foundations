@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next Sub-Topic: Flex-grown"
+git commit -m "Next Sub-Topic: Axes"
 git push
 git status
 
-# continue in https://www.theodinproject.com/lessons/foundations-growing-and-shrinking#flex-grow
+# continue in https://www.theodinproject.com/lessons/foundations-axes
