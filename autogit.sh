@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next Topic: Project Landing Page"
+git commit -m "Next Translate: Lesson 03"
 git push
 git status
 

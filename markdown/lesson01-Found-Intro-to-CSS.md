@@ -1,40 +1,41 @@
 ## 1. Introduction
 
-The previous lesson, you learned about HTML and how to use the tags for show elements on screen. The next step is to make that structure look good with some *style*, wich is exactly what CSS is for.
+The previous lesson, you learned about html and how to use the tags for show elements on screen. The next step is to make that structure look good with some *style*, wich is exactly what css is for.
 
 ## 2. Lesson overview
 
 <ul>
-	<li>Add style to HTML using CSS</li>
+	<li>Add style to html using css</li>
 	<li>Understand classes and ID attributes</li>
 	<li>Add style to specific elements</li>
 </ul>
 
 ## 3. Basic Syntax
 
-At the most basic level of CSS syntax, you'll work  *'property': 'value'* pair ... See the below image
+At the most basic level of css syntax, you'll work  *'property': 'value'* pair ... See the below image
 
 ![img01-css-syntax](https://cdn.statically.io/gh/TheOdinProject/curriculum/05ce472eabf8e04eeb2cc9139e66db884074fd7d/foundations/html_css/css-foundations/imgs/00.jpg)
+
 ```markdown
 📑 NOTE
 
-A <div> is one of the basic HTML elements. It's simply an empty container.
+A <div> is one of the basic html elements. It's simply an empty container.
 
 In general, use other tags such as <h1>, <h4>, <p>, <img>, etc; inside a <div>
 ```
 
 ## 4. Selectors
 
-`Explication:` Selectors simply refer to the HTML elements to which CSS rules apply.
+`Explication:` Selectors simply refer to the html elements to which css rules apply.
 They're what is actually being "selected" for each rule.
 
-Here are some examples to refers to on 'How to manipulate selectors in CSS'
+Here are some examples to refers to on 'how to manipulate selectors in css'
 
 #### 4.1. Universal Selector
 
-The universal selector will select elements of anu type, hence the name "universal", and the syntax for it's a simple asterisk.
+The universal selector will select elements of any type, hence the name "universal", and the syntax for it's a simple asterisk.
 
-```CSS
+```css
 * {
 	color: purple;
 }
@@ -44,13 +45,13 @@ The universal selector will select elements of anu type, hence the name "univers
 
 A type selector will select all elements of the given element type, and the syntax is just the name of the element:
 
-```HTML
+```html
 <!-- index.html -->
 
 <div> Hello, World! </div>
 ```
 
-```CSS
+```css
 /* styles.css */
 
 div {
@@ -60,17 +61,17 @@ div {
 
 #### 4.3. Class Selectors
 
-Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element.
+Class selectors will select all elements with the given class, which is just an attribute you place on an html element.
 
 See a example for understand:
 
-```HTML
+```html
 <!-- index.html -->
 
 <div class="alert-text"> Please, Agree to our Terms of Service! 🙏 </div>
 ```
 
-```CSS
+```css
 /* styles.css */
 
 .alert-text {
@@ -87,13 +88,13 @@ See a example for understand:
 ID Selectors are similar to class selectors.
 The major difference between classes and IDs, is that an element can only have one ID!
 
-```HTML
+```html
 <!-- index.html -->
 
 <div id="title">My Awesome 90's Page</div>
 ```
 
-```CSS
+```css
 /* styles.css */
 
 #myParagraph {
@@ -107,7 +108,7 @@ For IDs, instead of a period, we use a hashtag immediately followed by the case-
 
 What if we have two groups of elements that share some of their style declarations?
 
-```CSS
+```css
 .read, .unread {
 	color: white;
 	background-color: black;
@@ -122,7 +123,7 @@ Both our `.read` and `.unread` selectors share the `color: white;` and `b
 
 Another way to use selectors is to chain them as a list without any separation.
 
-```HTML
+```html
 <!-- index.html -->
 
 <div>
@@ -133,7 +134,7 @@ Another way to use selectors is to chain them as a list without any separation.
 
 We have two elements with the subjection class that have some sort of unique styles.
 
-```CSS
+```css
 /* styles.css */
 
 .subsection.header {
@@ -152,7 +153,7 @@ So something like `.ancestor .child` would select an element with the class `
 
 Another way to think of it is `child` will only be selected if it is nested inside of `ancestor`, no matter how deep.
 
-```HTML
+```html
 <!-- index.html -->
 
 <div class="ancestor">
@@ -169,7 +170,7 @@ Another way to think of it is `child` will only be selected if it is nested in
 <!-- D -->
 ```
 
-```CSS
+```css
 /* styles.css */
 
 .ancestor, .contents {
@@ -182,11 +183,11 @@ In the above example, the first two elements with the `contents` class (B and 
 
 There’s really no limit to how many combinators you can add to a rule, so `.one` `.two` `.three` `.four` would be totally valid.
 
-## 5. Order Matters!
+## 5. The Order Matters!
 
 When two selectors have the same level of specificity, the rule that is defined last has the most precedence; that is, the last rule overrides any rules before it.
 
-```CSS
+```css
 /* styles.css */
 
 .first_declared, .last_declared {
@@ -209,14 +210,14 @@ In the above example, the selector `last_declared` would override the `first_dec
 
 ## 6. Properties to get started with
 
-There are some CSS properties that you're going to be using all the time, or at the very least more often than not. Learning the following properties will simply be enough to help get you started.
+There are some css properties that you're going to be using all the time, or at the very least more often than not. Learning the following properties will simply be enough to help get you started.
 
 #### 6.1. Color and Background-color
 
 1. `color`: Set an element text color;
 2. `background-color`: Set the background color of an element;
 
-```CSS
+```css
 .element {
 	color: #1100ff;           /* example 01 - HEX example*/
 	color: rgb(100, 0, 127);  /* example 02 - RGB example */
@@ -224,7 +225,7 @@ There are some CSS properties that you're going to be using all the time, or at 
 }
 ```
 
-`Trick`: Take a quick look at [CSS Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
+`Trick`: Take a quick look at [css Legal Color Values](https://www.w3schools.com/cssref/css_colors_legal.asp) to see how you can adjust the opacity of these colors by adding an alpha value.
 
 #### 6.2. Typography basics and text-align
 
@@ -244,21 +245,21 @@ There are some CSS properties that you're going to be using all the time, or at 
 
 By default, an `<img>` element's `height` and `width` ready values. For modify, use a value of "auto" for the `height` property and adjust the `width` value:
 
-```CSS
+```css
 img {
 	height: auto;
 	width: 150px;
 }
 ```
 
-For example, if an image’s original size was 500px height and 1000px width, using the above CSS would result in a height of 250px.
+For example, if an image’s original size was 500px height and 1000px width, using the above css would result in a height of 250px.
 
-## Adding CSS to HTML
+## Adding css to html
 
-Exist three ways of link CSS to HTML: By "External CSS" (using meta links at `<head>`), and "Internal CSS" (using the tag `<style>`), and the "Inline CSS" (applying the CSS properties inside of HTML tags)
+Exist three ways of link css to html: By "External css" (using meta links at `<head>`), and "Internal css" (using the tag `<style>`), and the "Inline css" (applying the css properties inside of html tags)
 
 ```
 📑 NOTE: 
 
-As I know how to use the all forms, I'll skip this topic, and go to the next one!
+As I know how to use the all ways, I'll skip this topic, and go to the next one!
 ```
