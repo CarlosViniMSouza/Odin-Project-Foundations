@@ -1,0 +1,19 @@
+.container {
+  height: 120px;
+  padding: 12px;
+  gap: 24px;
+
+  background: plum;
+  border: 2px solid indigo;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 72px;
+  height: 72px;
+  border: 2px solid darkslategray;
+  background: skyblue;
+}
