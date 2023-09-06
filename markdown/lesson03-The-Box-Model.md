@@ -7,7 +7,7 @@ Learning to position elements on a webpage is not that difficult once you unders
 ## 2. Lesson Overview
 
 <ul>
-	<li> You’ll learn all about _the box model. </li>
+	<li> You’ll learn all about the box model. </li>
 	<li> You’ll learn how to make sure elements are just the right size with margin, padding, and borders </li>
 </ul>
 
