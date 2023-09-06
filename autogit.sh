@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next Sub-Topic: Axes | Inserted HTML & CSS examples"
+git commit -m "Next Sub-Topic: Alignment"
 git push
 git status
 
-# continue in https://www.theodinproject.com/lessons/foundations-axes
+# continue in https://www.theodinproject.com/lessons/foundations-alignment
