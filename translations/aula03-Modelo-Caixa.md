@@ -8,7 +8,7 @@ Aprender a posicionar elementos em uma página da web não é tão difícil quan
 
 <ul>
   <li> Você aprenderá tudo sobre o modelo de caixa. </li>
-  <li> Você aprenderá como garantir que os elementos tenham o tamanho certo com margem, preenchimento e bordas </li>
+  <li> Você aprenderá como garantir que os elementos tenham o tamanho certo com margem, preenchimento e bordas. </li>
 </ul>
 
 Para uma explicação e exemplo mais interativos, experimente o seguinte Scrim (diga-nos o que você acha deles):
