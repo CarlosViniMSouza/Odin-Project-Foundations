@@ -1,22 +1,38 @@
 * {
+  margin: 0 auto;
   font-family: 'Inter', sans-serif;
   font-family: 'Roboto', sans-serif;
+  border: solid black 1px;
 }
 
 .container {
-  height: 100%;
-  padding: 15px;
-  background: skyblue;
-  border: 2px solid gray;
-  display: flex;
-  justify-content: right;
+  padding: 16px;
+  margin: 12px;
+  background-color: yellow;
 }
 
-.item {
-  width: 60px;
-  height: 60px;
+.content {
+  background-color: aquamarine;
   
-  color: white;
+  padding: 12px;
+  margin-top: 12px;
 }
 
+p, ol {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
 
+  padding: 18px;
+  margin: 6px;
+
+  display: block;
+  text-align: left;
+  background-color: white;
+}
+
+h1 {
+  padding: 12px;
+  text-align: center;
+  width: 30%;
+  background-color: burlywood;
+}

@@ -1,12 +1,59 @@
+/* ========== BOX MODEL ========== //
+//
+// Margin      | e.g. margin: 10px 10px 10px 10px (top | right | bottom | left)  
+// Border      | e.g. border: 2px dotted green
+// Padding     | e.g. padding: 10px (shorthand)
+// Content     | 
+*/
+
 * {
-    margin: 0 auto;
-    margin-left: 6px;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    /* border: 2px solid black; */
+    line-height: 1.5;
+    outline: 1px dotted red;
+    text-align: center;
 }
 
-.listGroup {
-    display: inline-block;
-    text-align: left;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: darkred;
+}
+
+img {
+  width: 10%px;
+}
+
+ol {
+  list-style: none;
+}
+
+.recipe-card {
+  width: 400px;
+  text-align: center;
+  background-color: #FFFAFA;
+  border: 2px solid yellow;
+}
+
+.recipe-content {
+  text-align: left;
+}
+
+.recipe-card h2,
+.recipe-card a {
+  text-transform: uppercase;
+}
+
+.recipe-card.feature {
+  border: 2px solid darkred;
+}
+
+ol li h2 {
+  font-size: 14px;
+}
+
+#btn-sub {
+  background-color: #fc9400;
+  color: #fff;
+  text-decoration: solid;
 }

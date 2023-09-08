@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next Translate: Lesson 05"
+git commit -m "Next Translate: Lesson 06"
 git push
 git status
 
