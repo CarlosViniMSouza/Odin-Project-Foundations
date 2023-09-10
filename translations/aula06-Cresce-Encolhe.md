@@ -88,4 +88,12 @@ O fator de redução padrão é `flex-shrink: 1`, o que significa que todos os 
 }
 ```
 
-An important implication to notice here is that when you specify `flex-grow` or `flex-shrink`, flex items do not necessarily respect your given values for `width`.
+Uma implicação importante a ser observada aqui é que quando você especifica `flex-grow` ou `flex-shrink`, os itens flexíveis não respeitam necessariamente os valores fornecidos para `width`.
+
+### 3.3. Flex-basis
+
+`flex-basis` simplesmente define o tamanho inicial de um item flexível, portanto, qualquer tipo de `crescimento flexível` ou `redução flexível` começa a partir desse tamanho de linha de base. O valor abreviado é padronizado como `flex-basis: 0%`. Usar `auto` como base flexível informa ao item para verificar uma declaração de largura (`largura: 250px`).
+
+### 4. Na prática ...
+
+Na prática, você provavelmente não usará valores complexos para `flex-grow`, `flex-shrink` ou `flex-basis`. Geralmente, é mais provável que você use declarações como `flex: 1;` para fazer com que os divs cresçam uniformemente e `flex-shrink: 0` para evitar que certos divs diminuam.
