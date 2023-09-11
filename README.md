@@ -44,7 +44,7 @@ Introduction to Git
 Git Basics
 ```
 
-## HTML Foundations
+## HTML Foundations ✅
 
 ```
 Introduction to HTML and CSS
@@ -64,7 +64,7 @@ Commit Messages
 Project: Recipes
 ```
 
-## CSS Foundations
+## CSS Foundations ✅
 
 ```
 Intro to CSS
@@ -78,7 +78,7 @@ The Box Model
 Block and Inline
 ```
 
-## Flexbox
+## Flexbox ✅
 
 ```
 Introduction to Flexbox

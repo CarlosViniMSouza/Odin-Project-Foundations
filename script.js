@@ -38,8 +38,19 @@ const myListAPI = () => {
                 "from": "2018-01-20T12:00Z",
                 "to": "2018-01-20T12:30Z",
                 "intensity": {
-                    "forecast": 266,
-                    "actual": 263,
+                    "forecast": 264,
+                    "actual": 266,
+                    "index": "moderate"
+                }
+            }]
+        },
+        "object_num_04": {
+            "data":[{
+                "from": "2018-01-21T12:00Z",
+                "to": "2018-01-21T12:30Z",
+                "intensity": {
+                    "forecast": 265,
+                    "actual": 261,
                     "index": "moderate"
                 }
             }]

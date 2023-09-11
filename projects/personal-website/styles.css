@@ -40,7 +40,25 @@
 
 .projects img {
   display: flex;
-
-  width: 50%;
+  width: 75%;
   padding: 6px;
+}
+
+.projects-list-num01, 
+.projects-list-num02 {
+  margin: 12px;
+  border: dotted 2px white;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.contact img {
+  border: solid 2px white;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+.contact {
+  justify-content: center;
+  text-align: center;
 }

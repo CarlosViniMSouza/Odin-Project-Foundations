@@ -39,7 +39,7 @@ See the below example:
 }
 ```
 
-One thing to note is that in this example, `flex-direction: column` would not work as expected if we used the shorthand `flex: 1`. The reason for this is that the flex shorthand expands `flex-basis` to **0**, which means that all `flex-grow`ing and `flex-shrink`ing would begin their calculations from **0**. 
+One thing to note is that in this example, `flex-direction: column` would not work as expected if we used the shorthand `flex: 1`. The reason for this is that the flex shorthand expands `flex-basis` to **0**, which means that all `flex-grow`ing and `flex-shrink`ing would begin their calculations from **0**.
 
 Empty divs by default have 0 height, so for our flex items to fill up the height of their container, they don’t actually need to have any height at all.
 
