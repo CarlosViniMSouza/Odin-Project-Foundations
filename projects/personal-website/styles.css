@@ -1,0 +1,47 @@
+* {
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+#github-stats, #streak-stats {
+  text-align: center;
+  padding: 6px;
+}
+
+.container {
+  background-color: gray;
+  margin: 12px;
+  padding: 12px;
+}
+
+.my-header-content *{
+  margin: 6px;
+  border: solid 2px;
+  border-radius: 6px;
+  width: 100%;
+
+  color: white;
+}
+
+.my-header {
+  padding: 12px;
+  width: 80%;
+  
+  display: flex;
+  text-align: center;
+}
+
+.about-me img {
+  display: flex;
+
+  width: 50%;
+  padding: 6px;
+}
+
+.projects img {
+  display: flex;
+
+  width: 50%;
+  padding: 6px;
+}

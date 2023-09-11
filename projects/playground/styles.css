@@ -9,6 +9,10 @@
   padding: 16px;
   margin: 12px;
   background-color: yellow;
+  
+  display: flexbox;
+  flex: 1;
+  flex-shrink: 0;
 }
 
 .content {

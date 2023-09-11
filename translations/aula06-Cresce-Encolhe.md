@@ -57,7 +57,7 @@ Na captura de tela acima, `flex: 1` equivale a: `flex-grow: 1`, `flex-shrink: 1`
 
 ### 3.2. Flex-shrink
 
-`flex-shrink` é semelhante a `flex-grow`, mas define o “fator de redução” de um item flexível. `flex-shrink` só será aplicado se o tamanho de todos os itens flexíveis for maior que o contêiner pai. Por exemplo, se nossos três divs acima tivessem uma declaração de largura como: `width: 100px` e `.flex-container` fossem menores que `300px`, nossos divs teriam que diminuir para caber.
+`flex-shrink` é semelhante a `flex-grow`, mas define o "fator de redução" de um item flexível. `flex-shrink` só será aplicado se o tamanho de todos os itens flexíveis for maior que o contêiner pai. Por exemplo, se nossos três divs acima tivessem uma declaração de largura como: `width: 100px` e `.flex-container` fossem menores que `300px`, nossos divs teriam que diminuir para caber.
 
 O fator de redução padrão é `flex-shrink: 1`, o que significa que todos os itens serão reduzidos uniformemente. Se você _não_ deseja que um item diminua, você pode especificar `flex-shrink: 0;`.
 
@@ -74,7 +74,7 @@ O fator de redução padrão é `flex-shrink: 1`, o que significa que todos os 
   display: flex;
 }
 
-/* this selector selects all divs inside of .flex-container */
+/* este seletor seleciona todos os divs dentro de .flex-container */
 .flex-container div {
   background: rgb(215, 185, 255);
   border: 2px solid brown;
