@@ -1,5 +1,5 @@
 git add -A
-git commit -m "personal-website: To-do -> contacts"
+git commit -m "personal-website: To-do -> contacts | Wakatime added"
 git push
 git status
 

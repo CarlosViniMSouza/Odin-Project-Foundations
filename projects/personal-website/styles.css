@@ -4,9 +4,8 @@
   font-size: large;
 }
 
-#github-stats, #streak-stats {
+#github-stats, #streak-stats, #wakatime-stats {
   text-align: center;
-  padding: 6px;
 }
 
 .container {
