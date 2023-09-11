@@ -1,5 +1,5 @@
 git add -A
-git commit -m "personal-website: contacts added | To-Do: Deploy"
+git commit -m "Lesson 08 translated"
 git push
 git status
 
