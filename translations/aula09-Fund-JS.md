@@ -61,3 +61,29 @@ Agora é hora da diversão... Até agora, não fizemos muito com nossa programa�
 2. [Este tutorial](https://www.w3schools.com/js/js_if_else.asp) é uma ótima primeira olhada nas condicionais em JavaScript.
 
 3. [Este tutorial](http://javascript.info/logical-operators) ensinará você sobre operadores lógicos.
+
+## 7. Funções
+
+1. [Este longo artigo do MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) é um bom lugar para começar. Não se preocupe, pois pode haver algumas funções que podem estar além do alcance desta lição em particular, mas preste atenção especial às seções sobre 'Escopo da Função'.
+
+2. Leia este artigo sobre [valores de retorno](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
+
+3. Vamos discutir paramêtros e argumentos no contexto do seguinte exemplo de função:
+
+```js
+function favoriteAnimal(animal) {
+  return animal + " is my favorite animal!";
+}
+
+console.log(favoriteAnimal('Dog'));
+```
+
+Em JavaScript, parâmetros são os itens listados entre parênteses na declaração da função.
+
+Argumentos de função são os valores reais que decidimos passar para a função.
+
+4. A seguir, leia [este artigo](http://javascript.info/function-basics) em Javascript.info. Já mencionamos isso antes, mas o JavaScript mudou um pouco ao longo dos anos e as funções receberam recentemente algumas inovações.
+
+5. Agora, leia [este artigo](http://javascript.info/function-expressions) sobre funções em JavaScript para ter um pouco mais de contexto e leia [este artigo](http://javascript.info/arrow-functions -básicos) para uma introdução a um recurso relativamente novo no JavaScript moderno chamado `função de seta`.
+
+6. Por fim, leia [este artigo](https://www.javascripttutorial.net/javascript-call-stack/) sobre pilhas de chamadas e como `return` funciona no contexto de chamadas de função encadeadas.

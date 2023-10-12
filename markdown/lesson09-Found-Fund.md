@@ -61,3 +61,29 @@ Now it’s time for the fun stuff ... So far, we haven’t done much with our pr
 2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
 
 3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators.
+
+## 7. Functions
+
+1. [This lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start. Don't worry as there may be some functions that can be beyond the reach of this particular lesson, but do pay special attention to the sections on 'Function Scope'.
+
+2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).
+
+3. Let's discuss parameters and arguments in the context of the following example function:
+
+```js
+function favoriteAnimal(animal) {
+  return animal + " is my favorite animal!";
+}
+
+console.log(favoriteAnimal('Dog'));
+```
+
+In JavaScript, parameters are the items listed between the parentheses in the function declaration. 
+
+Function arguments are the actual values we decide to pass to the function.
+
+4. Next, read [this article](http://javascript.info/function-basics) from Javascript.info. We’ve mentioned this before, but JavaScript has changed a bit over the years and functions have recently received some innovation.
+
+5. Now, read [this article](http://javascript.info/function-expressions) about functions in JavaScript to give you a little more context, and read [this article](http://javascript.info/arrow-functions-basics) for an introduction to a relatively new feature in modern JavaScript called the `arrow function`.
+
+6. Finally, read [this article](https://www.javascripttutorial.net/javascript-call-stack/) about call stacks and how `return` works in the context of chained function calls.
