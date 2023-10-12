@@ -41,3 +41,23 @@ Numbers are the building blocks of programming logic! In fact, it’s hard to th
 2. [This MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) covers the same info from a slightly different point of view, while also teaching you how to apply some basic math in JavaScript.
 
 3. Read through [this article](http://javascript.info/operators) about operators in Javascript.
+
+## 5. Strings
+
+Depending on what kind of work you’re doing, you might end up working more with pieces of text rather than numbers. A string is simply a piece of text … and is a fundamental building block of the language.
+
+1. Read and code along with [yet another MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) on the topic.
+
+2. Go through [this lesson](https://www.w3schools.com/js/js_string_methods.asp) to learn a bit more about what you can do with strings… be sure to take a peek at the String Reference page near the bottom.
+
+3. Vocabulary time: a **method** is a bit of functionality built into the language or specific data types. In [the previous W3Schools exercise](https://www.w3schools.com/js/js_string_methods.asp), you’ve learned about a few methods that can be used on strings, such as `replace` and `slice`.
+
+## 6. Conditionals
+
+Now it’s time for the fun stuff ... So far, we haven’t done much with our programming that you couldn’t do with simple math skills.
+
+1. Step one in learning about conditionals is making sure you have a good grasp on [comparisons](http://javascript.info/comparison).
+
+2. [This tutorial](https://www.w3schools.com/js/js_if_else.asp) is a great first glance at conditionals in JavaScript.
+
+3. [This tutorial](http://javascript.info/logical-operators) will teach you about logical operators.

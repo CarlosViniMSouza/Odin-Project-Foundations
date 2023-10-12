@@ -41,3 +41,23 @@ Números são os blocos de contrução da lógica de programação. De fato, é 
 2. [Este artigo do MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math) aborda as mesmas informações de um ponto de vista um pouco diferente, ao mesmo tempo que ensina como aplicar alguns matemática básica em JavaScript.
 
 3. Leia [este artigo](http://javascript.info/operators) sobre operadores em Javascript.
+
+## 5. Strings
+
+Dependendo do tipo de trabalho que você está fazendo, você pode acabar trabalhando mais com pedaços de texto do que com números. Uma string é simplesmente um pedaço de texto ... e é um bloco de construção fundamental da linguagem.
+
+1. Leia e codifique junto com [mais um tutorial do MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings) sobre o tópico.
+
+2. Leia [esta aula](https://www.w3schools.com/js/js_string_methods.asp) para aprender um pouco mais sobre o que você pode fazer com strings... não deixe de dar uma olhada na página String Reference perto da parte inferior.
+
+3. Tempo de vocabulário: um **método** é uma funcionalidade incorporada à linguagem ou a tipos de dados específicos. No [exercício anterior do W3Schools](https://www.w3schools.com/js/js_string_methods.asp), você aprendeu alguns métodos que podem ser usados em strings, como `replace` e `slice`.
+
+## 6. Condicionais
+
+Agora é hora da diversão... Até agora, não fizemos muito com nossa programação que você não pudesse fazer com simples habilidades matemáticas.
+
+1. O primeiro passo para aprender sobre condicionais é ter uma boa noção de [comparações](http://javascript.info/comparison).
+
+2. [Este tutorial](https://www.w3schools.com/js/js_if_else.asp) é uma ótima primeira olhada nas condicionais em JavaScript.
+
+3. [Este tutorial](http://javascript.info/logical-operators) ensinará você sobre operadores lógicos.
